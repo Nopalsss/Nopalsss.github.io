@@ -1,0 +1,93 @@
+body{
+    font-family: Poppins;
+    background-color: white;
+    
+}
+
+.CV{
+    text-align: center;   
+    padding: 30px;
+    font-size: 30px;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.biodata {
+    padding: 0px 10px 0px 10px;
+}
+
+.identitas {
+    padding: 2px;
+    text-align:justify;
+}
+
+.education{
+    padding: 30px;
+}
+.education1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.edu ,th ,td{
+    border: 1px solid black;
+    margin: auto;
+    text-align: justify;
+    border-collapse:collapse;   
+    padding: 10px;
+}
+
+
+.myself{
+    margin: auto auto;
+    width:856px;
+}
+.grettings{
+    font-size: 30px;
+    text-align: center;
+}
+
+.desc{
+    text-align: justify;
+    text-wrap: wrap;
+}
+
+.porto{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.myporto{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: larger;    
+    width: auto;
+    height: auto;
+    background-color:beige;
+    padding: 20px;
+    border-radius: 200px;
+    border: 2px solid black
+}
+
+.myporto:hover{
+    color: beige;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+}
