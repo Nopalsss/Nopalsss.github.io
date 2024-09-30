@@ -1,26 +1,44 @@
 body{
     font-family: Poppins;
     background-color: white;
+    margin: auto;
 }
 
-.header{
-    padding: 10px;
+.navbar{
+    text-align: left;   
+    padding: 5px;
+    font-size: 30px;
+    background-color:black ;
 }
-.grettings{
+
+.nav{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+
+.upper{
+    padding-top:30px;
     text-align: center;
 }
+
 
 .content{
     display: grid;
     padding-top: 50px;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 .porto1{
     background-color: beige;
     border-radius: 12px;
     width: 300px;
-    height: auto;
+    height: 470px;
     text-align:justify ;
     margin: auto;
     padding: 10px;
@@ -32,30 +50,39 @@ body{
     padding: 15px 30px
 }
 
+.desc{
+    margin: auto;
+    padding-bottom: 56px;
+}
 .porto2{
     background-color: beige;
     border-radius: 12px;
-    width: 320px;
-    height: auto;
+    width: 300px;
+    height: 470px;
     margin: auto;
     text-align: justify;
     padding: 10px;
 }
 
 .pic{
-    width: 275px;
+    width: 270px;
     height: auto;
-    padding: 15px 22px;
-}
-
-.desc{
-    margin: auto;
-    padding-bottom: 30px;
+    padding: 10px 15px 22px ;
 }
 
 .desc2{
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
+}
+
+.porto3{
+    background-color: beige;
+    border-radius: 12px;
+    width: 300px;
+    height: 470px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
 }
 
 .button{
@@ -78,4 +105,15 @@ body{
     color: black;
     font-weight: 600;
     font-size: larger;
+}
+
+.pic3{
+    width: 280px;
+    height: auto;
+    padding: 10px 10px 50px;
+}
+
+.desc3{
+    margin: auto;
+    padding-bottom: 66px;
 }

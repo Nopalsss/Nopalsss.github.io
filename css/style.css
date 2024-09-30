@@ -1,18 +1,31 @@
 body{
     font-family: Poppins;
     background-color: white;
-    
+    margin: auto;
 }
 
-.CV{
-    text-align: center;   
-    padding: 30px;
+.navbar{
+    text-align: left;   
+    padding: 5px;
     font-size: 30px;
+    background-color:black ;
+}
+
+.nav{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.nav:hover{
+    background-color: white;
+    color: black;
 }
 
 .upper{
     display: flex;
     justify-content: center;
+    padding-top:30px;
 }
 
 .foto{
@@ -41,6 +54,8 @@ body{
 }
 
 .edu ,th ,td{
+    width: 600px;
+    height: auto;
     border: 1px solid black;
     margin: auto;
     text-align: justify;
